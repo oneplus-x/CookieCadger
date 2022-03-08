@@ -5,9 +5,9 @@ An auditing tool for Wi-Fi or wired Ethernet connections
 
 [![Build Status](https://travis-ci.org/CookieCadger/CookieCadger.png?branch=master)](https://travis-ci.org/CookieCadger/CookieCadger)
 
-https://cookiecadger.com
+[cookiecadger](https://cookiecadger.com)
 
-https://github.com/sullivanmatt/CookieCadger
+[sullivanmatt](https://github.com/sullivanmatt/CookieCadger)
 
 ----------------------------------------------
 ## Requirements
@@ -55,7 +55,6 @@ $> jhome           #switches to latest java
 $> jhome -v 1.7    #switches to java 1.7
 $> jhome -v 1.6    #switches to java 1.6
 ~~~
-ref: https://gist.github.com/kenglxn/1843d552dff4d4233271
 
 Use jenv is an easy way.
 
