@@ -122,7 +122,7 @@ Support
 
 Feature requests / bug reports:
 
-[sullivan.matt-CookieCadger-issues](https://github.com/sullivanmatt/CookieCadger/issues)
+[CookieCadger-issues](https://github.com/sullivanmatt/CookieCadger/issues)
 
 General information / anything else:
 
