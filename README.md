@@ -6,6 +6,7 @@ An auditing tool for Wi-Fi or wired Ethernet connections
 [![Build Status](https://travis-ci.org/CookieCadger/CookieCadger.png?branch=master)](https://travis-ci.org/CookieCadger/CookieCadger)
 ![sullivanmatt](https://komarev.com/ghpvc/?username=sullivanmatt&color=blue&label=Sullivanmatt&style=social)
 [![cookiecadger.com](https://img.shields.io/badge/cookiecadger.com-misc-red)](https://cookiecadger.com)
+[![GitHub issues](https://img.shields.io/github/issues/sullivanmatt/CookieCadger.svg)](https://github.com/sullivanmatt/CookieCadger/issues)
 
 ----------------------------------------------
 ## Requirements
@@ -121,8 +122,7 @@ Support
 
 Feature requests / bug reports:
 
-https://github.com/sullivanmatt/CookieCadger/issues
-
+![GitHub issues](https://github.com/sullivanmatt/CookieCadger/issues)
 
 General information / anything else:
 
