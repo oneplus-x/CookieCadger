@@ -4,8 +4,8 @@ Cookie Cadger
 An auditing tool for Wi-Fi or wired Ethernet connections
 
 [![Build Status](https://travis-ci.org/CookieCadger/CookieCadger.png?branch=master)](https://travis-ci.org/CookieCadger/CookieCadger)
-![sullivanmatt](https://komarev.com/ghpvc/?username=your-github-sullivanmatt&color=red&label=PROFILE+VIEWS&style=social)
-[cookiecadger](https://cookiecadger.com)
+![sullivanmatt](https://komarev.com/ghpvc/?username=sullivanmatt&color=red&label=PROFILE+VIEWS&style=social)
+[![cookiecadger](https://img.shields.io/badge/cookiecadger-misc-green)](https://cookiecadger.com)
 
 ----------------------------------------------
 ## Requirements
