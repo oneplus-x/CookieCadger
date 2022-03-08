@@ -106,7 +106,6 @@ Running Cookie Cadger
 ~~~
 java -jar CookieCadger-1.07.jar
 ~~~
-----------------------------------------------
 
 ----------------------------------------------
 Example Usage & Supported Program Arguments
