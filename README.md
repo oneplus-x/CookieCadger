@@ -47,7 +47,7 @@ jhome () {
   java -version
 }
 ~~~
-[switch.sh](https://github.com/readloud/CookieCadger/blob/master/switch.sh)
+[switch.sh](switch.sh)
 
 Then to switch between javas do:
 ~~~
