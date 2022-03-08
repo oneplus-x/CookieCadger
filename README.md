@@ -18,8 +18,8 @@ An auditing tool for Wi-Fi or wired Ethernet connections
 ----------------------------------------------
 Installation & Operation
 ----------------------------------------------
-1. [Download](#Downloading Cookie-Cadger) the Cookie Cookie Cadger package from https://cookiecadger.com and extract
-2. [Run](#Running Cookie Cadger) the Cookie Cadger JAR file by double-clicking it, or invoke from command line with java -jar CookieCadger.jar
+1. Download the Cookie Cookie Cadger package from https://cookiecadger.com and extract
+2. Run the Cookie Cadger JAR file by double-clicking it, or invoke from command line with java -jar CookieCadger.jar
 3. Cookie Cadger's session detection features, if enabled, rely on leaving the automatic update checks enabled.  This allows Cookie Cadger to get newest plugins from the server.
 4. If you wish to write your own plugins and use them, create a new directory in the same directory as the Cookie Cadger JAR file called 'plugins' and place them there.   
 
