@@ -10,10 +10,10 @@ https://cookiecadger.com
 https://github.com/sullivanmatt/CookieCadger
 
 ----------------------------------------------
-Requirements
+## Requirements
 ----------------------------------------------
 
-1. Java 7
+1. Java 7 8 10
 2. The Wireshark Suite (must include the 'tshark' binary)
 3. An up-to-date version of Mozilla Firefox
 4. Cookie Cadger has optional support for saving data to a MySQL database.  A MySQL installation is required for this feature.
@@ -26,6 +26,87 @@ Installation & Operation
 2. Run the Cookie Cadger JAR file by double-clicking it, or invoke from command line with java -jar CookieCadger.jar
 3. Cookie Cadger's session detection features, if enabled, rely on leaving the automatic update checks enabled.  This allows Cookie Cadger to get newest plugins from the server.
 4. If you wish to write your own plugins and use them, create a new directory in the same directory as the Cookie Cadger JAR file called 'plugins' and place them there.   
+
+----------------------------------------------
+## Purpose
+----------------------------------------------
+To see how cookies are used by websites for authentication, and [perform CSRF (Cross-Site Request Forgery)](https://samsclass.info/123/proj14/p11-cookie-cadger.html) attacks.
+
+*Testing Networking
+*Finding IP Address
+*To make this easiest, set all virtual networks to Bridged mode.
+
+If you don't use [fish](jhome/README.md), you can do something similar in bash:
+
+~~~
+#!/bin/bash
+jhome () {
+  export JAVA_HOME=`/usr/libexec/java_home $@`
+  echo "JAVA_HOME:" $JAVA_HOME
+  echo "java -version:"
+  java -version
+}
+~~~
+[switch.sh](#switch.sh)
+
+Then to switch between javas do:
+~~~
+$> jhome           #switches to latest java
+$> jhome -v 1.7    #switches to java 1.7
+$> jhome -v 1.6    #switches to java 1.6
+~~~
+ref: https://gist.github.com/kenglxn/1843d552dff4d4233271
+
+Use jenv is an easy way.
+
+*Install jenv, see [Getting started](https://github.com/jenv/jenv#1-getting-started)
+*Config jenv
+~~~
+cd ~/.jenv/candidates/
+mkdir java
+cd java
+mkdir 1.7
+mkdir 1.8
+~~~
+Symlink the jdk path
+~~~
+ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/bin ~/.jenv/candidates/java/1.7
+ln -s /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin ~/.jenv/candidates/java/1.8
+~~~
+*You are all set
+
+switch command:
+~~~
+jenv use java 1.8
+~~~
+set default:
+~~~
+jenv default java 1.7
+~~~
+
+On both computers, execute this command:
+~~~
+ping google.com
+~~~
+
+Make sure you are getting replies on both machines.
+----------------------------------------------
+Downloading Cookie-Cadger
+
+~~~
+wget https://www.cookiecadger.com/files/CookieCadger-1.08.jar
+~~~
+
+If that link doesn't work, use this command:
+~~~
+wget https://samsclass.info/123/proj14/CookieCadger-1.08.jar --no-check-certificate
+~~~
+
+Running Cookie Cadger
+~~~
+java -jar CookieCadger-1.07.jar
+~~~
+----------------------------------------------
 
 ----------------------------------------------
 Example Usage & Supported Program Arguments
